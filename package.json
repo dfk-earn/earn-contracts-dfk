@@ -1,0 +1,21 @@
+{
+  "name": "dfkearn",
+  "version": "2.0.0",
+  "description": "Contracts for DFKEarn",
+  "scripts": {
+    "genabi": "node scripts/genabi.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@openzeppelin/contracts": "^4.6.0",
+    "commander": "^9.3.0",
+    "dotenv": "^16.0.1",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.9",
+    "hardhat-deploy": "^0.11.10"
+  },
+  "devDependencies": {
+    "@remix-project/remixd": "^0.5.6"
+  }
+}
